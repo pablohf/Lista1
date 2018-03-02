@@ -11,7 +11,7 @@ namespace ConsoleApplication1 {
             //Instância da lista que será preenchida
             List<Produto> listaMoodle = new List<Produto>();
             List<Produto> listaTotvs = new List<Produto>();
-            List<Produto> lista3 = new List<Produto>();
+            
 
             //Retorna todas as linhas do arquivo em um array
             //de string, onde cada linha será um índice do array
