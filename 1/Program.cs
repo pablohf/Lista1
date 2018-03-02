@@ -18,7 +18,7 @@ namespace ConsoleApplication1 {
             string[] arrayMoodle = File.ReadAllLines("C:\\bancoMoodle.csv");
             string[] arrayTotvs = File.ReadAllLines("C:\\bancoTotvs.csv");
             //percorro o array e para cada linha
-            for (int i = 0; i < arrayMoodle.Length; i++) {
+            for (int i = 0; i < arrayMoodle.Length; i++) { 
 
                 //crio um objeto do tipo Produto
                 Produto p = new Produto();
